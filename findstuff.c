@@ -146,7 +146,6 @@ int main()
                             { /* if f flag set, only search certain file types */
                                 if (strstr(input, " -s") != NULL)
                                 { 
-                                    /* separatingfile ending is not working right */
                                     colon = strchr(input, ':');
                                     extracted = colon + 1;
                                     for (j = 0; extracted[j] != ' ' && extracted[j] != '\0'; j++)
