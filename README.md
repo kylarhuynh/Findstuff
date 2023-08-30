@@ -1,5 +1,5 @@
 # Findstuff
-Searches for text or files in the current directory or all directories based on different flags in command line. Returns location of the file/files that contain the text or file.
+Searches for text or files in the current directory or all directories based on different flags in command line. Returns location of the file/files that contain the text or filename.
 
 ## How to use:
 Use -f flag to only search for certain file types (only works if searching for a file)
